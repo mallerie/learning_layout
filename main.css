@@ -1,0 +1,39 @@
+.sandbox {
+  background: #ccc;
+  width: 500px;
+  height: 400px;
+  position: relative;
+}
+
+.box {
+  border: 1px solid black;
+  position: absolute;
+}
+
+.sm {
+  width: 25px;
+  height: 25px;
+  background: red;	
+  bottom: 0px;
+  right: 0px;
+}
+
+.md {
+  width: 50px;
+  height: 50px;	
+  background: green;
+  top: 10px;
+  right: 350px;
+  z-index: 1;
+}
+
+.lg {
+  width: 75px;
+  height: 75px;	
+  background: blue;
+  top: 50px;
+  left: 50px;
+  bottom: 0px;
+  right:0px;
+
+}
